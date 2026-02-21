@@ -59,7 +59,14 @@ This project uses dotenv to securely load database credentials.
     ```bash
     javac TaskManager.java
     ```
+    
+## Database Setup
 
+1.Open MySQL
+2.Run the schema.sql file:
+```sql
+SOURCE schema.sql;
+```
 ## Usage
 
 1. Run the application from the terminal:
