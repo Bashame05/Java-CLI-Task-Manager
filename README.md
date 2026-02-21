@@ -18,6 +18,29 @@ Java CLI Task Manager is a simple command-line application for managing personal
 - Java Development Kit (JDK) 8 or higher
 - Command-line interface (Terminal, Command Prompt, etc.)
 
+## Project Structure
+
+The project follows a layered architecture:
+
+taskmanagerapp/
+ ├── TaskManager.java      -> CLI & user interaction
+ ├── Task.java             -> Model class
+ ├── STATUS.java           -> Enum for task status
+
+taskmanagerdb/
+ ├── DBConnection.java     -> Database connection handler
+ ├── TaskManagerDAO.java   -> Data Access Layer (CRUD operations)
+
+## Environment Variables
+
+Create a `.env` file in the project root:
+
+DB_URL=jdbc:mysql://localhost:3306/taskmanager
+DB_USER=root
+DB_PASSWORD=your_password
+
+This project uses dotenv to securely load database credentials.
+
 ## Installation
 
 1. Clone the repository:
