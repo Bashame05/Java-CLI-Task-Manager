@@ -9,7 +9,6 @@ Java CLI Task Manager is a simple command-line application for managing personal
 - Add new tasks with a title and description.
 - List all existing tasks in a readable format.
 - Mark tasks as completed or pending.
-- Update the content of existing tasks.
 - Delete tasks by specifying their ID.
 - Persistent storage of tasks using a MySQL Database.
 
@@ -73,7 +72,6 @@ This project uses dotenv to securely load database credentials.
 
     - **Add Task:** Enter task title and description when prompted.
     - **List Tasks:** View all tasks with status and details.
-    - **Update Task:** Select a task by ID and provide new details.
     - **Complete/Uncomplete Task:** Change the completion status of a task.
     - **Delete Task:** Remove a task by specifying its ID.
     - **Exit:** Quit the application.
@@ -83,10 +81,9 @@ This project uses dotenv to securely load database credentials.
 ```text
 Welcome to Java CLI Task Manager!
 1. Add task
-2. List tasks
-3. Update task
-4. Complete task
-5. Delete task
+2. View tasks
+3. Mark as done
+5. Remove  task
 6. Exit
 Select an option:
 ```
