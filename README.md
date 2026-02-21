@@ -63,6 +63,7 @@ This project uses dotenv to securely load database credentials.
 ## Database Setup
 
 1.Open MySQL
+
 2.Run the schema.sql file:
 ```sql
 SOURCE schema.sql;
