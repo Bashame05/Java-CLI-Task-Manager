@@ -11,7 +11,7 @@ Java CLI Task Manager is a simple command-line application for managing personal
 - Mark tasks as completed or pending.
 - Update the content of existing tasks.
 - Delete tasks by specifying their ID.
-- Persistent storage of tasks using a local file system.
+- Persistent storage of tasks using a MySQL Database.
 
 ## Requirements
 
@@ -68,7 +68,7 @@ Welcome to Java CLI Task Manager!
 Select an option:
 ```
 
-Tasks are stored persistently in a file, ensuring data is retained between sessions. Each operation will prompt for further details as needed.
+Tasks are stored persistently in a Database, ensuring data is retained between sessions. Each operation will prompt for further details as needed.
 
 ---
 
