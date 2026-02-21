@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Java CLI Task Manager is a simple command-line application for managing personal tasks. The tool allows users to add, view, update, and delete tasks directly from the terminal. This repository demonstrates core programming concepts in Java, such as file I/O, object-oriented design, and CLI interaction.
+Java CLI Task Manager is a simple command-line application for managing personal tasks. The tool allows users to add, view, update, and delete tasks directly from the terminal. This repository demonstrates core programming concepts in Java, DB interaction, object-oriented design, and CLI interaction.
 
 ## Features
 
