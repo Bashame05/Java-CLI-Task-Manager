@@ -29,6 +29,7 @@ taskmanagerapp/
 taskmanagerdb/
  ├── DBConnection.java     -> Database connection handler
  ├── TaskManagerDAO.java   -> Data Access Layer (CRUD operations)
+ ├── schema.sql            -> Database Schema
 ```
 ## Environment Variables
 
