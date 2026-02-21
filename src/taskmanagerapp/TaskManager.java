@@ -10,11 +10,8 @@ public class TaskManager {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         while(isRunning){
-            System.out.println("******************");
-            System.out.println("   TASK MANAGER   ");
-            System.out.println("******************");
-            System.out.println("******************");
-            System.out.println("       MENU      ");
+            System.out.println("⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯");
+            System.out.println("Welcome to Java CLI Task Manager!");
             System.out.println("1:ADD A TASK");
             System.out.println("2:VIEW TASK");
             System.out.println("3:MARK AS DONE");
@@ -22,7 +19,7 @@ public class TaskManager {
             System.out.println("5:EXIT");
             int choice;
             try {
-                System.out.print("Enter your choice(1-5):");
+                System.out.print("Select an option(1-5):");
                 choice = scanner.nextInt();
                 scanner.nextLine();
             } catch (InputMismatchException e) {
@@ -75,7 +72,7 @@ public class TaskManager {
         }
     }
     private static void addTask() {
-        System.out.println("***************");
+        System.out.println("⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯");
         System.out.print("Enter your task:");
         String title = scanner.nextLine();
         Task task = new Task(title);
